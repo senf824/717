@@ -1,0 +1,80 @@
+#consignee{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  header{
+    height:.8rem;
+    display: flex;
+    padding:0 .2rem;
+    align-items: center;
+    i{
+      flex-basis: .4rem;
+    }
+    p{
+      flex:1;
+      font-size: .36rem;
+      text-align: center;
+    }
+  }
+  section{
+    overflow-y: scroll;
+    flex:1;
+    background: #eee;
+    padding:0 .2rem;
+    p{
+      height:.8rem;
+      margin-top:.2rem;
+    }
+    small{
+      flex-basis: .8rem;
+    }
+    input{
+      height:100%;
+      width:100%;
+      border:0;
+      padding-left:.1rem;
+    }
+    button{
+      display: block;
+      height:1rem;
+      width:70%;
+      border:0;
+      margin:0 auto;
+      margin-top:.3rem;
+      background: red;
+      color:#fff;
+      line-height: 1rem;
+      text-align: center;
+      border-radius: .5rem;
+      font-size: .36rem;
+    }
+    .select{
+      display: flex;
+      justify-content: space-between;
+    }
+    select{
+      border:0;
+      padding-left:.1rem;
+      outline:none;
+    }
+  }
+  .province,.city{  // 省、市
+    flex:1;
+  } 
+  .district{  // 区
+    width:100%;
+    height:100%;
+  }
+  .default{
+    display: inline-block;
+    width:.4rem;
+    height:.4rem;
+    border-radius: 50%;
+    background: red;
+    line-height: .4rem;
+    text-align: center;
+    color:#fff;
+    margin-right: .2rem;
+  }
+}
