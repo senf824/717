@@ -36,7 +36,7 @@
     "redux-saga": "^0.16.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "swiper": "^4.1.6",
+    "swiper": "^6.5.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.1"
   },
